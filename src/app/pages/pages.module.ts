@@ -19,6 +19,8 @@ import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { PAGES_ROUTES } from './pages.routes';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesesComponent } from './promeses/promeses.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -29,7 +31,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     Graficas1Component, 
     IncrementComponent,
     DoughnutGraphicComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromesesComponent,
+    RxjsComponent
   ],
   exports: [
     PagesComponent,
